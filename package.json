@@ -1,0 +1,24 @@
+{
+  "name": "express-calculator",
+  "version": "1.0.0",
+  "description": "A calculator built using express library.",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahbaazX786/Express-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahbaazX786/Express-calculator/issues"
+  },
+  "homepage": "https://github.com/ShahbaazX786/Express-calculator#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
