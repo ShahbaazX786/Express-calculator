@@ -10,11 +10,10 @@ app.get("/",(req,res)=>{
 
 
 app.post('/',(req,res)=>{
-    // console.log(req.body);
-    var n1=Number(req.body.num1);
-    var n2=Number(req.body.num2);
-    // var result=n1+n2;
-    res.send("your result:"+ (n1+n2));
+    var n1=Number(req.body.height);
+    var n2=Number(req.body.weight);
+    var result = (n1/(n2*n2))
+    res.send("Your Body Mass Index is :" + result);
 });
 
 app.listen(3000,function(){
